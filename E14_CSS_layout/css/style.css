@@ -296,3 +296,6 @@ footer li {
     width: 20px;
 }
 
+* {
+    background-color: yellow;
+}
