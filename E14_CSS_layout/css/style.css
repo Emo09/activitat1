@@ -281,18 +281,3 @@ footer li {
     width: 40px;
     padding: 10px;
 }
-
-/**/
-#up {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px;
-    background-color: yellow;
-    border-radius: 5px;
-}
-
-#up img{
-    width: 20px;
-}
-
