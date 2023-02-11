@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.cuerpesito {
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+/*Clases generales*/
+.m0a {
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center
+}
+
+.seccion {
+    width: 800px;
+}
+
+.center{
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.sbetween {
+    justify-content: space-between;
+}
+
+.sarround {
+    justify-content: space-around;
+}
+
+.jcenter {
+    justify-content: center;
+}
+
+.w300{
+    width: 300px;
+}
+
+/*Header*/
+header {
+    padding: 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 100%;
+    background-color: white;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+header img {
+    height: 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin: 0px 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Barra lateral*/
+#siguenos {
+    box-sizing: border-box;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#siguenos h2{
+    margin: 10px 0 10px 0;
+}
+
+#siguenos img{
+    width: 30px;
+}
+
+.sosial {
+    box-sizing: border-box;
+    background-color: white;
+    margin: 5px;
+    width: 33%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+  
+.main-content {
+    width: 800px;
+}
+  
+.sidebar {
+    margin: 15px;
+}
+
+.perfil {
+    height: 30px;
+    margin-right: 5px;
+}
+
+p.nombre{
+    margin: 5px 0;
+}
+
+p.tiempo {
+    font-size: 12px;
+    margin: 8px 10px;
+    color: rgba(128, 128, 128, 0.664);
+}
+
+.comentario {
+    background-color: #f3f3f6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.comentario p {
+    margin: 0;
+}
+
+#chat {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*Presentacion*/
+div#presentacion {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#presentacion img {
+    height: 100px;
+}
+
+#presentacion div p{
+    padding: 30px;
+}
+
+/*Cuerpo*/
+.prueve {
+    border: solid 1px rgba(255, 0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px 0;
+    position: relative;
+}
+
+#cuerpo h2 {
+    color: #0741ad;
+}
+
+#cuerpo img {
+    position: absolute;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.texto{
+    margin-left: 43%;
+}
+
+.botones {
+    margin-top: 30px;
+}
+
+.button {
+    background-color: #f3f3f6;
+    border-radius: 8px;
+    border-width: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 24%;
+    height: 35px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+}
+
+button#like {
+    background-image: url(../img/icons/like.png);
+}
+
+button#like:hover {
+    background-image: url(../img/icons/like-hover.png);
+}
+
+button#dislike {
+    background-image: url(../img/icons/dislike.png);
+}
+
+button#dislike:hover {
+    background-image: url(../img/icons/dislike-hover.png);
+}
+
+button#star {
+    background-image: url(../img/icons/star.png);
+}
+
+button#star:hover {
+    background-image: url(../img/icons/star-hover.png);
+}
+
+button#coment {
+    background-image: url(../img/icons/comment.png);
+}
+
+button#coment:hover {
+    background-image: url(../img/icons/comment-hover.png);
+}
+
+/*Footer*/
+footer {
+    background-image: linear-gradient(to bottom, #8360c3, #2ebf91);
+    padding-top: 20px;
+    color: black;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    line-height: 30px;
+}
+
+.social {
+    width: 40px;
+    padding: 10px;
+}
+
+/**/
+#up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+#up img{
+    width: 20px;
+}
+
